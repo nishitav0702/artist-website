@@ -1,3 +1,4 @@
+/* ========== Global Styles ========== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,6 +14,8 @@ nav a {
   margin-right: 1rem;
   text-decoration: none;
 }
+
+/* ========== tour.php ========== */
 .tour-card {
   border: 1px solid #ccc;
   padding: 1rem;
@@ -24,6 +27,7 @@ nav a {
   color: #0077cc;
 }
 
+/* ========== index.php (Homepage) ========== */
 .hero {
   background: #eee;
   padding: 2rem;
@@ -50,6 +54,7 @@ nav a {
   text-align: center;
 }
 
+/* ========== about.php ========== */
 .about {
   padding: 2rem;
 }
@@ -67,6 +72,7 @@ nav a {
   line-height: 1.6;
 }
 
+/* ========== music.php ========== */
 .music {
   padding: 2rem;
 }
@@ -90,7 +96,7 @@ nav a {
   margin: 0.5rem 0;
 }
 
-/* store.php styling */
+/* ========== store.php ========== */
 .store {
   padding: 2rem;
 }
@@ -123,7 +129,8 @@ nav a {
   text-decoration: none;
   border-radius: 4px;
 }
-/* messages.php */
+
+/* ========== contact.php ========== */
 .contact {
   padding: 2rem;
   max-width: 600px;
@@ -136,7 +143,8 @@ nav a {
 .contact label {
   margin-top: 1rem;
 }
-.contact input, .contact textarea {
+.contact input,
+.contact textarea {
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
