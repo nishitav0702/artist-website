@@ -90,4 +90,70 @@ nav a {
   margin: 0.5rem 0;
 }
 
-
+/* store.php styling */
+.store {
+  padding: 2rem;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.product-card {
+  width: 30%;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.product-card h3 {
+  margin: 0.5rem 0;
+}
+.product-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/* messages.php */
+.contact {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+.contact label {
+  margin-top: 1rem;
+}
+.contact input, .contact textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.success {
+  color: green;
+  margin-top: 1rem;
+}
+.error {
+  color: red;
+  margin-top: 1rem;
+}

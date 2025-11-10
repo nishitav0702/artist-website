@@ -13,5 +13,7 @@
     <a href="tour.php">Tour</a>
     <a href="music.php">Music</a>
     <a href="store.php">Store</a>
+    <a href="contact.php">Contact</a>
+
     </nav>
   </header>
